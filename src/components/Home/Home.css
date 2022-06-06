@@ -1,0 +1,38 @@
+.review-container {
+  display: flex;
+  width: 1100px;
+  margin: 0px auto;
+  gap: 40px;
+}
+.text {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 80px;
+}
+span {
+  color: #e54343;
+}
+.review-btn {
+  background-color: #e54343;
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 19px;
+  font-weight: 600;
+  margin-left: 700px;
+  margin-bottom: 100px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 688px) {
+  .review-container {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+  .review-btn{
+      margin-left: 150px;
+  }
+}

@@ -1,0 +1,36 @@
+.About-area img {
+  width: 400px;
+}
+.About-area {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 200px;
+}
+.About-details {
+  width: 50%;
+  margin: 50px auto;
+}
+.About-details h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.About-details p {
+  font-size: 20px;
+  line-height: 2;
+  text-align: justify;
+  color: #ada6a6;
+}
+@media screen and (max-width:688px) {
+    .About-area{
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .About-area img{
+      width: 300px;
+    }
+}

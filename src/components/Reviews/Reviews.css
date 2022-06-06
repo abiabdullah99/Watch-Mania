@@ -1,0 +1,23 @@
+.reviw-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1100px;
+    margin: 0px auto;
+    gap: 40px;
+    margin-top: 50px;
+}
+.review-tite{
+    margin-top: 150px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 688px) {
+    .reviw-container{
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+    }
+}

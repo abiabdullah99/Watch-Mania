@@ -1,0 +1,87 @@
+.foot {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px auto;
+  margin-top: 130px;
+}
+.foot-1 h6 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  width: 100%;
+  margin-top: 20px;
+  line-height: 2;
+}
+.foot-1 {
+  width: 100%;
+  margin-left: 150px;
+}
+.foot-2 {
+  width: 100%;
+  padding-left: 130px;
+}
+.foot-2 h5 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+}
+.foot-2 h3{
+    font-size: 21px;
+}
+.foot-2 input {
+  font-size: 15px;
+  outline: none;
+  border: none;
+  padding: 10px 150px 10px 10px;
+  background: #fff;
+  border-radius: 30px;
+  margin: 5px 0px;
+}
+.foot-2 button {
+  font-size: 16px;
+  padding: 12px 25px;
+  background: #e54343;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 10px;
+}
+.foot-3 {
+  width: 100%;
+  padding-left: 150px;
+}
+.foot-3 h3{
+    margin-left: 15px;
+    font-size: 21px;
+}
+.foot-3 h6 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-left: 15px;
+}
+.foot-3 .icon {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+}
+.foot .icon:hover {
+  color: #e54343;
+}
+@media only screen and (max-width: 688px) {
+  .foot {
+    flex-direction: column;
+  }
+  .foot-1 {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .foot-2 {
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+  .foot-3 {
+    padding-left: 0px;
+  }
+}

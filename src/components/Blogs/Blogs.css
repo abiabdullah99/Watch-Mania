@@ -1,0 +1,18 @@
+.questoion{
+    padding: 100px;
+}
+.questoion h1{
+    font-size: 39px;
+    color: #fff;
+    line-height: 2;
+}
+.questoion p{
+    font-size: 22px;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.questoion h5{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 2;
+}

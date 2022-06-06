@@ -1,0 +1,54 @@
+.Review img {
+  width: 150px;
+  margin-left: 75px;
+  margin-top: 25px;
+  border-radius: 50%;
+  height: 150px;
+}
+.card {
+  width: 300px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(33, 32, 32, 0.2),
+    inset -5px -5px 15px rgba(174, 172, 172, 0.1),
+    5px -5px 15px rgba(255, 236, 236, 0.3), -5px -5px 15px rgba(25, 25, 25, 0.1);
+  margin-bottom: 60px;
+  border-radius: 8px;
+  margin-left: 30px;
+  position: relative;
+}
+.Review-details {
+  padding: 30px;
+}
+.Review-details h1,
+h5 {
+  color: #fff;
+}
+.Review-details h1 {
+  font-size: 24px;
+}
+.Review-details h5 {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 5px 0px;
+  color: #8e8e8e;
+}
+.rating {
+  color: #e54343;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 3px;
+  position: absolute;
+  bottom: 30px;
+}
+.rating-text {
+  color: #fff;
+  font-size: 19px;
+}
+.icons {
+  color: #e54343;
+  text-align: center;
+  font-size: 34px;
+  padding-top: 20px;
+}
